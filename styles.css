@@ -4,18 +4,13 @@ body {
 }
 h1 {
     color: #025157;
-    text-align: center;
 }
 p{
     color: #46484c;
-    font-family: verdana;
-    font-size: 20px;
-    text-align: center;
 }
 
 .promocional{
     color: #8b8b8bcc;
-    text-align: center;
 }
 
 button{
