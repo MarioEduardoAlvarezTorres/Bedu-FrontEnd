@@ -13,14 +13,11 @@ p{
     color: #8b8b8bcc;
 }
 
-button{
-    background-color: #025157;
-    color: #fffbf7;
-}
-
 .header {
     margin: 40px 20px 0;
     font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
   }
   
   .header > * {
@@ -49,6 +46,12 @@ li,ul{
     color: #025157;
     font-weight: 500;
   }
+
+  .navbar li{
+    display: inline;
+    margin: 0 25px;
+    color:#025157 ;
+}
   
   .actions {
     width: 15%;
@@ -57,7 +60,26 @@ li,ul{
     font-weight: 600;
   }
 
+  .actions>*{
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  .actions a{
+    color:#67b54b ;
+  }
+  .actions button{
+    background-color: #025157;
+    color: #fffbf7;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    
+  }
+  
   .main {
     margin-top: 140px;
     text-align: center;
   }
+
