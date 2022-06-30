@@ -13,6 +13,11 @@ p{
     color: #8b8b8bcc;
 }
 
+button{
+    background-color: #025157;
+    color: #fffbf7;
+}
+
 .header {
     margin: 40px 20px 0;
     font-size: 0;
@@ -68,6 +73,7 @@ li,ul{
   .actions a{
     color:#67b54b ;
   }
+  
   .actions button{
     background-color: #025157;
     color: #fffbf7;
@@ -75,7 +81,6 @@ li,ul{
     border: 0;
     border-radius: 5px;
     color: white;
-    
   }
   
   .main {
