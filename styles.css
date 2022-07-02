@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbf7;
+    background-color: #6bc281;
     
 }
 h1 {
@@ -59,6 +59,7 @@ li,ul{
 }
   
   .actions {
+    display:inline-block;
     width: 15%;
     text-align: left;
     font-size: 14px;
