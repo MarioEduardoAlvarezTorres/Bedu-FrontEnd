@@ -46,15 +46,17 @@ li,ul{
 }
 
 .logo {
-  width: 15%;
+  width: 25%;
 }
 
 .logo > img {
   width: 15%;
+  float: left;
+  padding-top: 0;
 }
 
 .navbar {
-width: 60%;
+width: 50%;
 text-align: center;
 color: #025157;
 font-weight: 500;
@@ -145,4 +147,12 @@ img{
 .publish > form p {
   color: #025157;
   margin-right: 18px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
