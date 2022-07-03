@@ -162,4 +162,36 @@ img{
   /*grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 330px);*/
   grid-template:repeat(2, 330px)/repeat(2, 1fr);
+  background-color: #025157;
+  padding: 150px;
+  
 }
+
+.feature-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border-radius: 10px;
+  background-color: #fffbf7;
+  margin: 20px;
+  border: 10px;
+}
+
+.feature-card h3{
+  color: black;
+  font-family: Arial, Helvetica;
+}
+
+.feature-card a{
+  color: #67b54b;
+  font-family: Arial, Helvetica;
+  font-weight: bolder;
+}
+
+/*.feature-card-right > div{
+  background-color: blue;
+}
+
+.feature-card-left > div{
+  background-color: pink;
+}*/
+
