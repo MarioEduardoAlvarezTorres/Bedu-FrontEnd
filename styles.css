@@ -101,10 +101,22 @@ img{
   margin: auto;
 }
 
-/*section.promo > article{
-  background-color: #025157;
-  display: inline;
-}*/
+.promo{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.explanatory-video{
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.explanatory-video > img{
+  display: flex;
+  margin: auto;
+}
 
 .publish {
   /* container styles if any */
@@ -122,6 +134,7 @@ img{
   color: #343434;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 
