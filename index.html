@@ -46,34 +46,38 @@
         </section>
     -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light"">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #fffbf7;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Logo" width="50px"/>
+              <a class="navbar-brand logo" href="#">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
               </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link Platform" aria-current="page" href="#">Platform</a>
+                    <a class="nav-link active" aria-current="page" href="#">Platform</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link Pricing" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link Customers">Customers</a>
+                    <a class="nav-link" href="#">Customers</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link Resources">Resources</a>
+                    <a class="nav-link" href="#">Resources</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link About">About</a>
+                    <a class="nav-link" href="#">About us</a>
                   </li>
                 </ul>
+        
                 <form class="form-inline my-2 my-lg-0 actions justify-content-end">
-                    <a href="/login">
-                        Sign In
-                    </a>
-                  <button class="btn btn-outline-success" type="submit"> Strat free trial</button>
+                  <div class="actions">
+                    <a href="#">Sign In</a>
+                    <button>Start Free Trial</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -237,6 +241,8 @@
         <!-- Contenido de casos de éxito vienen después -->
     </section>
     
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+            crossorigin="anonymous"></script>
 </body>
 </html>

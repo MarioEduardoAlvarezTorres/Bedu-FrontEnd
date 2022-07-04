@@ -4,10 +4,15 @@
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
-  .actions {
-    display: none;
+  .actions,
+  .navbar {
+    text-align: center;
   }
+
+  .main {
+    margin-top: 130px;
+  }
+
   h1{
     font-size: 1.5rem;
   }
@@ -82,4 +87,11 @@
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .actions,
+  .navbar {
+    text-align: center;
+  }
 }
