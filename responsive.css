@@ -35,6 +35,34 @@
   .publish > form > div > input {
     width: 65%;
   }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+  
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    background-color: #025157;
+    padding: 10px;
+  }
+
+  .feature-card{
+    font-size: 1.1rem;
+  }
 }
 /** dispositivos pequeños en vista landscape (horizontal) 
 @media (min-width: 576px and max-width: 767px) {

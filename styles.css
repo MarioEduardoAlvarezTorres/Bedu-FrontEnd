@@ -6,6 +6,10 @@ h1 {
   font-size: 6rem;
 }
 
+.features h3 {
+  color: #025157;
+}
+
 .banner img{
   width: 100%;
 }
