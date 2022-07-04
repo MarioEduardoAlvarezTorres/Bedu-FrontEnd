@@ -16,6 +16,26 @@
     margin-top: 100px;
   }
 
+  .banner > img {
+    width: 100%;
+  }
+
+  .promo{
+    display: inline;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+}
 /** dispositivos pequeños en vista landscape (horizontal) 
 @media (min-width: 576px and max-width: 767px) {
   
